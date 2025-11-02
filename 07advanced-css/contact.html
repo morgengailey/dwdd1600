@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Morgen Johnson-Cox">
+    <meta name="description" content="Serpent Search is your ultimate online resource for all things snakes. Explore our
+    extensive database of snake species, learn about their habitats, behaviors, and care tips. Whether you're a snake
+    enthusiast or a curious beginner, Serpent Search has something for everyone.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.typekit.net/uyk6yzk.css">
+    <link rel="stylesheet" href="serpentsearch.css">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <title>Serpent Search: Contact Us</title>
+</head>
+
+<body>
+    <!--start the pade head-->
+    <header>
+        <img src="images/serpent_search_icon.png" alt="serpent search logo" width="42" height="50">
+        <span>Serpent Search</span>
+    </header>
+    <!--start the page navigation-->
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="history.html">Hiss-tory</a></li>
+            <li><a href="anatomy.html">Snake Body Lab</a></li>
+            <li><a href="types.html">Venom vs. Muscle</a></li>
+            <li><a href="guide.html">Explorer's Guide</a></li>
+            <li><a href="spot.html">Spot That Snake</a></li>
+            <li class="active"><a href="contact.html">Contact Us</a></li>
+        </ul>
+    </nav>
+    <!--start the main content-->
+    <main>
+        <h1>Contact Us</h1>
+        <p>We'd love to hear from you! Whether you have questions, feedback, or just want to share your snake stories,
+            feel free to reach out to us.
+
+          <h2>Send Us a Message</h2>
+        <form method="get" class="myMessage" action="thanks.html">
+            <fieldset>
+                <legend>Your Contact Info</legend>
+                <label>Prefix <input type="text" name="prefix" placeholder="Ms. Mr. Dr. etc."> </label>
+                <label>First Name* <input type="text" name="fname" required> </label>
+                <label>Last Name* <input type="text" name="lname" required> </label>
+                <label>Suffix <input type="text" name="suffix" placeholder="Jr. III Sr. etc."> </label>
+                <label>Email * <input type="email" name="email" required> </label>
+                <label>Phone <input type="tel" name="phone" placeholder="(123) 456-7890"> </label>
+            </fieldset>
+
+
+            <fieldset>
+                <legend>Choose Your Hiss Intensity </legend>
+                <label><input type="radio" name="urgency" value="none"> Soft Hiss (No rush)</label>
+                <label><input type="radio" name="urgency" value="low"> Low Rattle (I can wait)</label>
+                <label><input type="radio" name="urgency" value="medium"> Rapid Rattle (Please respond
+                    quickly)</label>
+                <label><input type="radio" name="urgency" value="high"> Fang Flare (ASAP!)</label>
+            </fieldset>
+
+
+            <!--this will be my checkbox-->
+
+            <fieldset>
+                <legend>What Brings You Slithering By?</legend>
+                <label><input type="checkbox" name="story" value="chosen"> I want to share a snake story.</label>
+                <label><input type="checkbox" name="id" value="chosen"> I need help identifying a snake.</label>
+                <label><input type="checkbox" name="question" value="chosen"> I have a question about snake
+                    care.</label>
+                <label><input type="checkbox" name="collab" value="chosen"> I'd love to collaborate or contribute
+                    content.</label>
+                <label><input type="checkbox" name="research" value="chosen"> I need help with research.</label>
+
+                <select name="role">
+                    <option value="none" disabled selected>Select your role</option>
+                    <option value="enthusiast">Snake Enthusiast</option>
+                    <option value="researcher">Researcher/Student</option>
+                    <option value="educator">Educator</option>
+                    <option value="pet_owner">Snake Owner</option>
+                    <option value="other">Other</option>
+                </select>
+            </fieldset>
+
+            <fieldset>
+            <legend>Your Message</legend>
+            <label> 
+                <textarea name="Message" placeholder="Type Here"></textarea>
+            </label>
+            </fieldset>
+            <input type="submit" value="Send Message">
+        </form>
+
+
+
+            <!--contact info-->
+        <address>
+            <strong>Serpent Search</strong>
+            <br>
+            3111 Fite Circle, STE 101B <br>
+            Sacramento, CA 95827 USA <br>
+            contact@savethesnakes.org <br>
+            <a href="tel:19165204382">+19165204382</a> <br>
+        </address>
+    </main>
+    <!--start the footer-->
+    <footer>
+        <p>&copy; 2025 &bull; Morgen Johnson-Cox &bull; Web Essentials</p>
+    </footer>
+
+</body>
+
+</html>
